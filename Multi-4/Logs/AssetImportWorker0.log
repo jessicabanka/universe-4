@@ -707,3 +707,162 @@ Received Import Request.
   path: Assets/Vast Outer Space/EXAMPLE/Demo_Scene_A.unity
   artifactKey: Guid(6c9e50774c896fd43a6fef673b9fd9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Vast Outer Space/EXAMPLE/Demo_Scene_A.unity using Guid(6c9e50774c896fd43a6fef673b9fd9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14893a357cae284fd3f62fbf256d7e7b') in 0.006286 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002699 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/sukanyachopra/Desktop/Multiverse-4/Multi-4/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/sukanyachopra/Desktop/Multiverse-4/Multi-4/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.820 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4827ms)
+		BeginReloadAssembly (1074ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (112ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (374ms)
+		EndReloadAssembly (3187ms)
+			LoadAssemblies (542ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (742ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1787ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (1374ms)
+				ProcessInitializeOnLoadMethodAttributes (176ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.3 KB). Loaded Objects now: 3899.
+Memory consumption went from 253.5 MB to 253.4 MB.
+Total: 4.774792 ms (FindLiveObjects: 0.259958 ms CreateObjectMapping: 0.186833 ms MarkObjects: 4.196583 ms  DeleteObjects: 0.130208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10279.956584 seconds.
+  path: Assets/Vast Outer Space/Materials/Asteroid_G.mat
+  artifactKey: Guid(6c9695e1a7b954d4fa05a844fd42cdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vast Outer Space/Materials/Asteroid_G.mat using Guid(6c9695e1a7b954d4fa05a844fd42cdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb01f169047eda399e63985c655e7ee') in 0.400078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Vast Outer Space/Materials/Asteroid_A.mat
+  artifactKey: Guid(2ab70d44e5d7dd44290aeaf27fe1d7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vast Outer Space/Materials/Asteroid_A.mat using Guid(2ab70d44e5d7dd44290aeaf27fe1d7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b218b8917f6505e528ba9e014632a8') in 0.052565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Vast Outer Space/Materials/Asteroid_H.mat
+  artifactKey: Guid(b9494279143d56f49a5550c5eb3b0066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vast Outer Space/Materials/Asteroid_H.mat using Guid(b9494279143d56f49a5550c5eb3b0066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560756ee3305de100cfbc945c43fe5ec') in 0.036488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Vast Outer Space/Materials/Gas_Planet_F.mat
+  artifactKey: Guid(7c1060f507508d446a956d7f741d31e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vast Outer Space/Materials/Gas_Planet_F.mat using Guid(7c1060f507508d446a956d7f741d31e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c805a01f1d02b2009c2a1466c996c45f') in 0.016299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Vast Outer Space/Materials/Black.mat
+  artifactKey: Guid(227af8007854ca246a48c2f3edf86a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vast Outer Space/Materials/Black.mat using Guid(227af8007854ca246a48c2f3edf86a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4e2bbfeb91508b59c965f81a49fd1f') in 0.013351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Vast Outer Space/Materials/Gas_Planet_D.mat
+  artifactKey: Guid(3818510e02d7b90408301ebdd3f28488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vast Outer Space/Materials/Gas_Planet_D.mat using Guid(3818510e02d7b90408301ebdd3f28488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ef7ecb82ebed0c43987752d5fb6f57') in 0.027265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Vast Outer Space/Materials/Asteroid_B.mat
+  artifactKey: Guid(78fa8c6cf8494a8458e481f9665233b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vast Outer Space/Materials/Asteroid_B.mat using Guid(78fa8c6cf8494a8458e481f9665233b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae09eb593d7920c1e02a3d2bbc3b31a') in 0.026457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Vast Outer Space/Materials/Asteroid_D.mat
+  artifactKey: Guid(535a9a8f731dfd544b3bfd12756e002f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vast Outer Space/Materials/Asteroid_D.mat using Guid(535a9a8f731dfd544b3bfd12756e002f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6d0fe384b7147939f4534a997af396') in 0.023099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.095105 seconds.
+  path: Packages/com.unity.timeline/package.json
+  artifactKey: Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/package.json using Guid(13a9c1b4df2e489e8eb9cacca7429596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8bfccb78abbe7dce246704718d398b') in 1.038354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.321760 seconds.
+  path: Packages/com.unity.services.core/package.json
+  artifactKey: Guid(182c5bcc97fc21747a9ca5e01da1ed3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.core/package.json using Guid(182c5bcc97fc21747a9ca5e01da1ed3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aaf2f5816003290ee33f3893a41e36e') in 0.004121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.854894 seconds.
+  path: Packages/com.unity.ide.visualstudio/package.json
+  artifactKey: Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/package.json using Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a6fe80ef80b39105b474244533a99c') in 0.002893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.811812 seconds.
+  path: Assets/Apartment_Door/Read me.pdf
+  artifactKey: Guid(87e972aa3d6c7464b8aa6bec2626c981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment_Door/Read me.pdf using Guid(87e972aa3d6c7464b8aa6bec2626c981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7708df5d939a7d25aca7977d4eac5168') in 0.514390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.579481 seconds.
+  path: Assets/Apartment_Door/Scripts
+  artifactKey: Guid(067b06f1ebb6caa498919c6dcc5fc5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment_Door/Scripts using Guid(067b06f1ebb6caa498919c6dcc5fc5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc8b3bd1960ee96c129594f010788dc') in 0.001029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.794180 seconds.
+  path: Assets/Apartment_Door/Scripts/DoorController.cs
+  artifactKey: Guid(150cf7940ab0e6c4bbaf184a87998a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment_Door/Scripts/DoorController.cs using Guid(150cf7940ab0e6c4bbaf184a87998a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7449f5df404a1be9b943c0dc91e080') in 0.306154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.010153 seconds.
+  path: Assets/Apartment_Door/Models/SimpleDoor.fbx
+  artifactKey: Guid(f054e366653a7c14186595569de398f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment_Door/Models/SimpleDoor.fbx using Guid(f054e366653a7c14186595569de398f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51112d5b8ae2184600391b1b09ff5bbf') in 0.671069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.625275 seconds.
+  path: Assets/Apartment_Door/Models/Materials
+  artifactKey: Guid(13aa0f347310e8d43a831e4169b9c47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment_Door/Models/Materials using Guid(13aa0f347310e8d43a831e4169b9c47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273215c2abb88a14445e74733e0a1675') in 0.001084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.559930 seconds.
+  path: Assets/Apartment_Door/Models/Materials/SimpleDoor_SimpleDoor_MainDoor_LOD0SG1.mat
+  artifactKey: Guid(43fc48f3b2ba92844a93a8ce2da89399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment_Door/Models/Materials/SimpleDoor_SimpleDoor_MainDoor_LOD0SG1.mat using Guid(43fc48f3b2ba92844a93a8ce2da89399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baea835815232471301c1206dbc37d4d') in 0.018806 seconds 
