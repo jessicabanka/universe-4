@@ -65,6 +65,7 @@
      <Compile Include="Assets\Underground Laboratory Generator\Scripts\LaboratoryGenerator.cs" />
      <Compile Include="Assets\Underground Laboratory Generator\Scripts\SimpleCharacter.cs" />
      <Compile Include="Assets\Underground Laboratory Generator\Scripts\SimpleRandom.cs" />
+     <None Include="Assets\Sci-Fi Styled Modular Pack\Readme.txt" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2019.4.16f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
