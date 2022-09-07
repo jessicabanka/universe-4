@@ -64,8 +64,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Sci Fi Modular Pack\Player\Movement.cs" />
-    <Compile Include="Assets\Sci Fi Modular Pack\Player\PlayerController.cs" />
+    <Compile Include="Assets\Bridge_Pack\Player\Movement.cs" />
+    <Compile Include="Assets\Bridge_Pack\Player\PlayerController.cs" />
     <Compile Include="Assets\Sci Fi Modular Pack\scripts\MouseLook.cs" />
     <Compile Include="Assets\Underground Laboratory Generator\Scripts\AN_VideoView.cs" />
     <Compile Include="Assets\Underground Laboratory Generator\Scripts\AN_Viewer.cs" />
