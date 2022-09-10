@@ -22,10 +22,11 @@ public class PlayerController : MonoBehaviour
 
     Vector2 currentMouseDelta = Vector2.zero;
     Vector2 currentMouseDeltaVelocity = Vector2.zero;
-
+    float yRotation;
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        yRotation = 180f;
         if (lockCursor)
         {
             Cursor.lockState = CursorLockMode.Locked;
