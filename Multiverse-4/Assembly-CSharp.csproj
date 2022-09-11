@@ -58,6 +58,8 @@
      <Compile Include="Assets\ButtonTrigger.cs" />
      <Compile Include="Assets\Underground Laboratory Generator\Scripts\PlayerController.cs" />
      <Compile Include="Assets\boxclue.cs" />
+     <Compile Include="Assets\console_clue.cs" />
+     <Compile Include="Assets\pillow_clue.cs" />
      <Compile Include="Assets\superNova.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
