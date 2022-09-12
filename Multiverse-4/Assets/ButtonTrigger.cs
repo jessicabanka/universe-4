@@ -8,6 +8,7 @@ public class ButtonTrigger : MonoBehaviour
     public InputField answer;
     public string actualAns;
     public GameObject door;
+    public GameObject door2;
     public GameObject key;
     public GameObject clueImg;
     public AudioSource Correct;
@@ -21,6 +22,8 @@ public class ButtonTrigger : MonoBehaviour
         if (answer.text.ToUpper() == actualAns.ToUpper())
         {
             door.SetActive(false);
+            if(door2)
+            door2.SetActive(false);
             clueImg.SetActive(false);
             
             Debug.Log("You did it!");
