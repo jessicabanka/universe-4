@@ -9,6 +9,7 @@ public class boxclue : MonoBehaviour
     
     [SerializeField]
     private GameObject clue1;
+   // public AudioSource audio;
 
     // Start is called before the first frame update
     void OnTriggerEnter(Collider other)
@@ -16,6 +17,7 @@ public class boxclue : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             ShowCursor();
+           
             if (Input.GetKeyDown(KeyCode.Escape))
             {
                 HideCursor();
@@ -37,7 +39,7 @@ public class boxclue : MonoBehaviour
     {
 
         clue1.SetActive(true);
-
+       
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }
